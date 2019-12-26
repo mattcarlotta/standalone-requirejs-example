@@ -53,7 +53,7 @@ function (_React$Component) {
     value: function render() {
       return React.createElement("div", null, this.state.isLiked && React.createElement("p", null, "This is liked."), React.createElement("button", {
         onClick: this.handleClick
-      }, this.state.isLiked ? "Like" : "Dislike"), React.createElement("br", null), React.createElement(H1LikeButton, null));
+      }, !this.state.isLiked ? "Like" : "Dislike"), React.createElement("br", null), React.createElement(H1LikeButton, null));
     }
   }]);
 

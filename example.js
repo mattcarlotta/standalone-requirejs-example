@@ -14,7 +14,7 @@ class H1LikeButton extends React.Component {
       <React.Fragment>
         {this.state.isLiked && <p>This is liked.</p>}
         <h1 onClick={this.handleClick}>
-          {this.state.isLiked ? "Like" : "Dislike"}
+          {!this.state.isLiked ? "Like" : "Dislike"}
         </h1>
       </React.Fragment>
     );
@@ -37,7 +37,7 @@ class LikeButton extends React.Component {
       <div>
         {this.state.isLiked && <p>This is liked.</p>}
         <button onClick={this.handleClick}>
-          {this.state.isLiked ? "Like" : "Dislike"}
+          {!this.state.isLiked ? "Like" : "Dislike"}
         </button>
         <br />
         <H1LikeButton />
