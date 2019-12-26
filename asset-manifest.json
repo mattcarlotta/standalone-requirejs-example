@@ -1,0 +1,12 @@
+{
+  "files": {
+    "todos.js": "/todos.js",
+    "users.js": "/users.js",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "logo_192.png": "/logo_192.png",
+    "logo_512.png": "/logo_512.png",
+    "manifest.json": "/manifest.json",
+    "robots.txt": "/robots.txt"
+  }
+}
